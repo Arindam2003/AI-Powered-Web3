@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(198, 216, 231);
+    background-color: rgb(222, 234, 243);
 }
 h1{
     margin-top: 30px;
     margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #links{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(43, 169, 237);
+    background-color: rgb(51, 169, 232);
     margin-bottom: 20px;
     text-align: center;
 }
@@ -33,10 +34,59 @@ hr{
 #first h2{
     margin-top: 20px;
     margin-bottom: 10px;
+    
 }
 #first p{
     letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+img{
+    margin-left: 30%;
+}
+h3{
+    font-weight: bold;
+    font-size:larger;
+    margin-bottom: 20px;
+}
+#first li{
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+#second{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#second h2{
+    margin-top: 20px;
     margin-bottom: 10px;
+    
+}
+#second p{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
     font-weight: 400;
 }
 
+#second ol{
+    margin-left: 40px;
+}
+#second ul{
+    margin-left: 40px;
+}
+#second li{
+    margin-bottom: 10px;
+}
+
+#copyright{
+    background-color:black;
+    padding: 30px 20px;
+    text-align: center;
+}
+#copyright p{
+    color: white;
+}
