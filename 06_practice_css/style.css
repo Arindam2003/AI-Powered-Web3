@@ -1,0 +1,35 @@
+button{
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    border: none;
+    transition: all 5s ease-in;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+input:focus{
+    color: red;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1::before{
+    content: "🔥";
+}
+h1::after{
+    content: "🎉";
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: translate(50px,20px);
+}
+.box:hover{
+    transform: rotate(45deg);
+}
+.box:active{
+    transform: scale(1.5);
+}
