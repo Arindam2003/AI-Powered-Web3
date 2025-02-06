@@ -1,0 +1,50 @@
+html,body{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column ;
+}
+
+header{
+    height: 12vh;
+    width: 100%;
+    background-color: red;
+}
+#top{
+    height: 8vh;
+    background-color: aqua;
+}
+nav{
+    height: 4vh;
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: lightblue;
+    height: 78vh;
+    width: 100%;
+    display: flex;
+}
+#sidebar{
+    background-color: azure;
+    width: 20%;
+}
+#main{
+    background-color: crimson;
+    
+    width: 100%;
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    font: bold;
+    text-align: center;
+}
+
+
+
