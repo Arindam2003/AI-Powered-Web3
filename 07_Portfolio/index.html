@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arindam</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body,html{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <main class="w-full bg-red-100 px-10 py-8">
-        <nav class="flex justify-between bg-green-100 items-center ">
+    <main class="w-full  px-10 py-3">
+        <nav class=" flex justify-between items-center ">
             <h1 class="font-medium text-xl tracking-tighter">Portfolio</h1>
             <div class="flex gap-8">
                 <a href="#" class="font-medium text-base tracking-tighter">Home</a>
@@ -18,7 +28,8 @@
                 <a href="#" class="font-medium text-base tracking-tighter opacity-50">Contact</a>
             </div>
         </nav>
-        <section class="w-full flex justify-between mt-10 items-end">
+
+        <section class=" w-full flex justify-between mt-10 items-end">
             <div class="left">
                 <h6 class="text-lg tracking-tighter font-bold">Hello I am,</h5>
                 <h1 class="font-bold text-[4rem] leading-none tracking-tighter">Arindam</h1>
@@ -30,8 +41,41 @@
             </div>
         </section>
 
-        <section class="picture w-full h-[50rem]">
-            <img class="w-full h-full object-cover object-center rounded-lg" src="https://plus.unsplash.com/premium_photo-1736600242460-6987480263c8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D" alt="the legendary car">
+        <section class="picture w-full h-[50rem] mt-10 bg-amber-50 rounded-[1vw]">
+            <img class="h-full w-[40rem] m-auto object-cover object-[20%_20%] rounded-[1vw]" src="./assets/my_img.jpeg" alt="Arindam's Image">
+        </section>
+
+        <section class="relative techstack rounded-[1vw] mt-10  text-center py-5">
+            <h1 class="text-2xl font-medium mb-3 ">[Problem Solving & Development]</h1>
+            <p class="w-2/3 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi at fuga minima quasi libero in asperiores officiis ut, sequi et, ullam sit, iusto nisi! Cumque nostrum aperiam ipsa. Provident vero quae laborum!</p>
+            <img  class="object-cover h-[3rem]  absolute right-20 -top-5" src="./assets/free-css-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673803.webp" alt="">
+            <img  class="object-cover h-[3rem] absolute right-60 -bottom-10"  src="./assets/javascript-1.svg" alt="">
+            <img class="object-cover h-[3rem] absolute left-60 -bottom-10"  src="./assets/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" 
+            alt="">
+            <img  class="object-cover h-[3rem] absolute left-40 -top-6 " src="./assets/Visual_Studio_Code_1.35_icon.svg.png" alt="">
+        </section>
+
+        <section class="relative mt-20 bg-red-100 h-[80rem]">
+            <div class="sticky top-0 time flex items-center gap-6">
+                <h1 class="font-bold text-6xl">2023.</h1>
+                <div class="h-1 w-40 bg-black"></div>
+                <h1 class="font-bold text-6xl opacity-20">The Beginning</h1>
+            </div>
+
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
+            <div class="h-1 w-40 bg-black mt-10"></div>
         </section>
     </main>
 </body>
