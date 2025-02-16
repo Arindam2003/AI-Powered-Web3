@@ -38,6 +38,7 @@ h1,p{
         font-size: 3.5rem;
         font-weight: 100;
         text-align: center;
+        margin-top: 1.5rem;
     }
     p{
         font-weight:lighter;
@@ -60,11 +61,12 @@ h1,p{
     justify-content: center;
     .marque{
         display: flex;
-        gap: 1rem;
+        
         width: 100%;
         overflow: hidden;
         .text
         {
+            padding-right: 1rem;
             gap: 1rem;
             display: flex;
             font-size: 2rem;
